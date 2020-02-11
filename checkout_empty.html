@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stripe Checkout </title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="head"></div>
+  <form class="form" action="...">
+    <div class="form__group ">
+      <label class="form__label" for="email">
+        <img src="assets/img/ic_email.png" alt="">
+      </label>
+      <input class="form__control form__control--border" type="text" id="email">
+    </div>
+    <div class="form__group ">
+      <label class="form__label" for="creditCard">
+        <img src="assets/img/credit.png" alt="">
+      </label>
+      <input class="form__control form__control--border" type="tel" id="creditCard">
+    </div>
+    <div class="form__group ">
+      <label class="form__label" for="date">
+        <img src="assets/img/ic_date.png" alt="">
+      </label>
+      <input class="form__control form__control--border" type="text" id="date">
+      <label class="form__label form__control--borderLarge" for="cvc">
+        <img src="assets/img/cvc.png" alt="">
+      </label>
+      <input class="form__control form__control--border" type="text" id="cvc">
+    </div>
+    <div class="form__group ">
+      <label class="form__label" for="user">
+        <img src="assets/img/ic_user.png" alt="">
+      </label>
+      <input class="form__control form__control--border" type="text" id="user">
+      <button class="btn btn__toggle" type="button"></button>
+    </div>
+  </form>
+  <button class="btn btn__check" type="submit">
+      <img src="assets/img/pay_text.png.png" alt="">
+  </button>
+</body>
+</html>
